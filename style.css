@@ -22,6 +22,8 @@ main {
 h3 {
     font-family: "IBM Plex Mono", monospace;
     font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: calc(10px + 1vw);
 }
 
 h4 {
