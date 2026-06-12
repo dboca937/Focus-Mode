@@ -1,0 +1,57 @@
+/* .graduate-regular {
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: calc(25px + 1vw);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+.blue__grass {
+    width: 60%;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.blue__grass li {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+}
+
+.blue__grass li:nth-child(2),
+.blue__grass li:nth-child(3) {
+    margin: 7.5px 0px;
+}
+
+.central__box {
+    width: 60%;
+    height: calc(300px + 2vw);
+    font-family: "IBM Plex Mono", monospace;
+    margin-top: calc(10px + 1vw);
+    text-align: center;
+}
